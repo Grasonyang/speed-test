@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/bootstrap.css">
+    <link rel="stylesheet" href="./asset/css/all.css">
+    <link rel="stylesheet" href="./asset/css/icon.css">
+    <link rel="stylesheet" href="./asset/css/header.css">
+    <link rel="stylesheet" href="./asset/css/footer.css">
+    <link rel="stylesheet" href="./asset/css/index.css">
+
+    <title>宮璇-形象網站-主頁</title>
+</head>
+<style>
+    .contact-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .contact-content-info {
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .contact-content-info h4 {
+        width: 70px;
+    }
+
+    .contact-content-info p {
+        margin-left: 70px;
+        letter-spacing: 0.2em;
+    }
+
+    .addresses {
+        width: 100%;
+    }
+
+    .address {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .map-button {
+        border: 1.5px solid rgb(0, 0, 97);
+        border-radius: 15px;
+        background-color: transparent;
+        letter-spacing: 0.2em;
+        padding: 5px 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .map-button:hover {
+        background-color: rgb(0, 0, 97);
+        color: white;
+    }
+</style>
+
+<body>
+    <header>
+        <div id="header-logo-link">
+            <a href="/index.html">
+                <img src="./asset/image/logo.png" alt="logo" class="header-logo">
+            </a>
+            <input type="checkbox" name="hamburagr-1" id="hamburagr-1">
+            <label for="hamburagr-1" id="hamburagr-1-label">
+                <div></div>
+                <div></div>
+            </label>
+        </div>
+        <ul class="header-layer1">
+            <li class="header-layer1-li">
+                <a class="white-title " href="/about-us.html">
+                    <h4 class="nav-button">關於我們</h4>
+                </a>
+            </li>
+            <li class="dropdown header-layer1-li">
+                <input type="checkbox" name="hamburagr-2" id="hamburagr-2">
+                <label for="hamburagr-2" class="white-title hamburagr-2-label nav-button">
+                    <h4>服務項目</h4>
+                    <div class="hamburagr-2-box"></div>
+                </label>
+                <ul class="header-layer2">
+                    <li>
+                        <a class="white-small-title" href="/service-1.html">
+                            <h6>智能代購平台</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-small-title" href="/service-2.html">
+                            <h6>AI優化生產線</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-small-title" href="/service-3.html">
+                            <h6>AI門禁辨識系統</h6>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-layer1-li">
+                <a class="white-title" href="/technology.html">
+                    <h4 class="nav-button">技術與創新</h4>
+                </a>
+            </li>
+            <li class="header-layer1-li">
+                <a class="white-title" href="/contact.html">
+                    <h4 class="nav-button">聯絡我們</h4>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section style="background-color: var(--back-color);" class="pb-5">
+            <div style="height: 500px;"></div>
+        </section>
+        <section>
+            <div id="use-case" class="d-flex flex-column align-items-center justify-content-center">
+                <div id="use-case-title">
+                    <span class="index-en-title-blue-1">USE CASES</span>
+                    <h1 class="index-ch-title-black">應用案例</h1>
+                </div>
+                <div id="use-case-card">
+
+                </div>
+            </div>
+
+            <!-- <div class="w-100 run-group-container mt-5 mb-5">
+
+                <div class="run-group">
+                    <img src="./asset/image/Cooperator/Amazon-Web-Services-Logo.png" alt="aws">
+                    <img src="./asset/image/Cooperator/Tsmc-logo.png" alt="tsmc">
+                    <img src="./asset/image/Cooperator/聯發科技Logo.png" alt="mediatek">
+                    <img src="./asset/image/Cooperator/趨勢科技-logo.png" alt="rend">
+                </div>
+                <div class="run-group">
+                    <img src="./asset/image/Cooperator/Amazon-Web-Services-Logo.png" alt="aws">
+                    <img src="./asset/image/Cooperator/Tsmc-logo.png" alt="tsmc">
+                    <img src="./asset/image/Cooperator/聯發科技Logo.png" alt="mediatek">
+                    <img src="./asset/image/Cooperator/趨勢科技-logo.png" alt="rend">
+                </div>
+                <div class="run-group">
+                    <img src="./asset/image/Cooperator/Amazon-Web-Services-Logo.png" alt="aws">
+                    <img src="./asset/image/Cooperator/Tsmc-logo.png" alt="tsmc">
+                    <img src="./asset/image/Cooperator/聯發科技Logo.png" alt="mediatek">
+                    <img src="./asset/image/Cooperator/趨勢科技-logo.png" alt="rend">
+                </div>
+                <div class="run-group">
+                    <img src="./asset/image/Cooperator/Amazon-Web-Services-Logo.png" alt="aws">
+                    <img src="./asset/image/Cooperator/Tsmc-logo.png" alt="tsmc">
+                    <img src="./asset/image/Cooperator/聯發科技Logo.png" alt="mediatek">
+                    <img src="./asset/image/Cooperator/趨勢科技-logo.png" alt="rend">
+                </div>
+            </div> -->
+        </section>
+    </main>
+    <footer>
+        <section class="footer-upper">
+            <div class="footer-contact">
+                <a href="index.html">
+                    <img src="./asset/image/logo.png" alt="logo">
+                </a>
+                <ul class="footer-contact-list">
+                    <li class="white-small-title" style="font-weight:lighter">臺北市大安區忠孝東路4段148號6樓</li>
+                    <li class="white-small-title" style="font-weight:lighter">台中市大雅區神林南路21巷65號</li>
+                    <li class="white-small-title" style="font-weight:lighter">04-25601260 / 0960962622</li>
+                </ul>
+            </div>
+            <div class="footer-map">
+                <ul class="footer-layer1">
+                    <li>
+                        <a href="">
+                            <h5 class="white-title">關於我們</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <h5 class="white-title">服務項目</h5>
+                        <ul class="footer-layer2">
+                            <li>
+                                <a href="/service-1.html" class="white-title">智能代購平台</a>
+                            </li>
+                            <li>
+                                <a href="/service-1.html" class="white-title">AI優化生產線</a>
+                            </li>
+                            <li>
+                                <a href="/service-1.html" class="white-title">AI門禁辨識系統</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5 class="white-title">技術與創新</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5 class="white-title">聯絡我們</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-down" style="padding-top: 50px;">
+            <h5 class="white-small-title" style="font-weight:500">
+                Copyright &copy; 2025 宮璇股份有限公司
+            </h5>
+        </section>
+    </footer>
+    <a href="#top" id="go-top">↖</a>
+</body>
+
+</html>

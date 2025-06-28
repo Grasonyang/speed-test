@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/bootstrap.css">
+    <link rel="stylesheet" href="./asset/css/all.css">
+    <link rel="stylesheet" href="./asset/css/icon.css">
+    <link rel="stylesheet" href="./asset/css/header.css">
+    <link rel="stylesheet" href="./asset/css/footer.css">
+    <title>宮璇-形象網站-聯絡我們</title>
+</head>
+<style>
+    .contact-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .contact-content-info {
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .contact-content-info h4 {
+        width: 150px;
+    }
+
+    .contact-content-info p {
+        margin-left: 70px;
+        letter-spacing: 0.2em;
+    }
+
+    .addresses {
+        width: 100%;
+    }
+
+    .address {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .map-button {
+        border: 1.5px solid rgb(0, 0, 97);
+        border-radius: 15px;
+        background-color: transparent;
+        letter-spacing: 0.2em;
+        padding: 5px 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .map-button:hover {
+        background-color: rgb(0, 0, 97);
+        color: white;
+    }
+
+    @media screen and (max-width: 768px) {
+        .contact-content-info {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .contact-content-info h4 {
+            width: auto;
+            margin-bottom: 10px;
+        }
+
+        .contact-content-info p {
+            margin-left: 0;
+        }
+
+        .addresses {
+            width: 100%;
+        }
+
+        .address {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+    }
+</style>
+
+<body>
+    <header>
+        <div id="header-logo-link">
+            <a href="/index.html">
+                <img src="./asset/image/logo.png" alt="logo" class="header-logo">
+            </a>
+            <input type="checkbox" name="hamburagr-1" id="hamburagr-1">
+            <label for="hamburagr-1" id="hamburagr-1-label">
+                <div></div>
+                <div></div>
+            </label>
+        </div>
+        <ul class="header-layer1">
+            <li class="header-layer1-li">
+                <a class="white-title " href="/about-us.html">
+                    <h4 class="nav-button">關於我們</h4>
+                </a>
+            </li>
+            <li class="dropdown header-layer1-li">
+                <input type="checkbox" name="hamburagr-2" id="hamburagr-2">
+                <label for="hamburagr-2" class="white-title hamburagr-2-label nav-button">
+                    <h4>服務項目</h4>
+                    <div class="hamburagr-2-box"></div>
+                </label>
+                <ul class="header-layer2">
+                    <li>
+                        <a class="white-small-title" href="/service-1.html">
+                            <h6>智能代購平台</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-small-title" href="/service-2.html">
+                            <h6>AI優化生產線</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-small-title" href="/service-3.html">
+                            <h6>AI門禁辨識系統</h6>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-layer1-li">
+                <a class="white-title" href="/technology.html">
+                    <h4 class="nav-button">技術與創新</h4>
+                </a>
+            </li>
+            <li class="header-layer1-li">
+                <a class="white-title" href="/contact.html">
+                    <h4 class="nav-button">聯絡我們</h4>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div id="top" style=""></div>
+        <div class="container">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="/index.html" class="black-subtitle" style="font-weight: 500">首頁</a>
+                </li>
+                <li class="black-subtitle">/</li>
+                <li>
+                    <a href="/contact.html" class="black-subtitle " style="font-weight: 500">聯絡我們</a>
+                </li>
+            </ul>
+            <div class="main">
+                <h1 class="blue-title">Contact Us</h1>
+                <h2 class="black-subtitle" style="font-size: 2em;">聯絡我們</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-content-info">
+                    <h4>公司名稱</h4>
+                    <p style="font-weight: 200;">宮璇股份有限公司</p>
+                </div>
+                <hr>
+                <div class="contact-content-info">
+                    <h4>設立時間</h4>
+                    <p style="font-weight: 200;">2025年05月15日</p>
+                </div>
+                <hr>
+                <div class="contact-content-info">
+                    <h4>統一編號</h4>
+                    <p style="font-weight: 200;">60792282</p>
+                </div>
+                <hr>
+                <div class="contact-content-info">
+                    <h4>客服電話</h4>
+                    <p style="font-weight: 200;">04-25601260 / 0960962622</p>
+                </div>
+                <hr>
+                <div class="contact-content-info">
+                    <h4>公司地址</h4>
+                    <div class="addresses">
+                        <div class="address">
+                            <p style="font-weight: 200;">臺北市大安區忠孝東路4段148號6樓</p>
+                            <button class="map-button">Google Maps</button>
+                        </div>
+                        <div class="address" style="margin-top: 5px;">
+                            <p style="font-weight: 200;">台中市大雅區神林南路21巷65號</p>
+                            <button class="map-button">Google Maps</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer-upper">
+            <div class="footer-contact">
+                <a href="index.html">
+                    <img src="./asset/image/logo.png" alt="logo">
+                </a>
+                <ul class="footer-contact-list">
+                    <li class="white-small-title" style="font-weight:lighter">臺北市大安區忠孝東路4段148號6樓</li>
+                    <li class="white-small-title" style="font-weight:lighter">台中市大雅區神林南路21巷65號</li>
+                    <li class="white-small-title" style="font-weight:lighter">04-25601260 / 0960962622</li>
+                </ul>
+            </div>
+            <div class="footer-map">
+                <ul class="footer-layer1">
+                    <li>
+                        <a href="">
+                            <h5 class="white-title">關於我們</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <h5 class="white-title">服務項目</h5>
+                        <ul class="footer-layer2">
+                            <li>
+                                <a href="/service-1.html" class="white-title">智能代購平台</a>
+                            </li>
+                            <li>
+                                <a href="/service-1.html" class="white-title">AI優化生產線</a>
+                            </li>
+                            <li>
+                                <a href="/service-1.html" class="white-title">AI門禁辨識系統</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5 class="white-title">技術與創新</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5 class="white-title">聯絡我們</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-down" style="padding-top: 50px;">
+            <h5 class="white-small-title" style="font-weight:500">
+                Copyright &copy; 2025 宮璇股份有限公司
+            </h5>
+        </section>
+    </footer>
+    <a href="#top" id="go-top">↖</a>
+</body>
+
+</html>

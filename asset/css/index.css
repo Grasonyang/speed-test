@@ -1,0 +1,18 @@
+#use-case-title {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    width: 1400px;
+    height: auto;
+    position: relative;
+}
+
+#use-case-title span {
+    position: absolute;
+    top: 216px;
+    left: 10px;
+}
+
+#use-case-title h1 {
+    padding-top: 80px;
+    padding-left: 180px;
+}

@@ -1,0 +1,119 @@
+.index-en-title-blue-1 {
+    font-family: 'Noto Sans CJK TC', sans-serif;
+    font-weight: 900;
+    font-size: 140px;
+    line-height: 120%;
+    letter-spacing: 28px;
+    -webkit-text-stroke: 1px #293ECD;
+    color: transparent;
+}
+
+.index-en-title-blue-2 {
+    font-family: 'Noto Sans CJK TC', sans-serif;
+    font-weight: 900;
+    font-size: 140px;
+    line-height: 120%;
+    letter-spacing: 28px;
+    -webkit-text-stroke: 1px #5AC9FB;
+    color: transparent;
+}
+
+.index-ch-title-black {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 140%;
+    letter-spacing: 20%;
+    color: #222222;
+}
+
+.index-ch-title-white {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 140%;
+    letter-spacing: 20%;
+    color: white;
+}
+
+.blue-title {
+    font-family: 'Noto Sans CJK TC', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    -webkit-text-stroke: 1px #65C9F9;
+    color: transparent;
+}
+
+.blue-subtitle {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', serif;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #65C9F9;
+}
+
+.blue-text {
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    color: #65C9F9;
+}
+
+.white-title {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', serif;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.white-subtitle {
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.white-small-title {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', serif;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.black-title {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', serif;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    color: black;
+}
+
+.black-subtitle {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', serif;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    color: black;
+}
+
+.black-title-text {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', serif;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    color: black;
+}
+
+.subtitle {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', serif;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    color: #030303;
+}
+
+.text-white {
+    color: white;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
+
+.text-black {
+    color: black;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
