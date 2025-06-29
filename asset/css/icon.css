@@ -1,7 +1,25 @@
+.index-main-decorate-1 {
+    font-family: 'Noto Sans CJK TC', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 20%;
+    color: #C8E7E9;
+}
+
+.index-main-decorate-2 {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 20%;
+    color: #C8E7E9;
+}
+
 .index-en-title-blue-1 {
     font-family: 'Noto Sans CJK TC', sans-serif;
-    font-weight: 900;
-    font-size: 140px;
+    font-weight: var(--font-weight, 900);
+    font-size: var(--font-size);
     line-height: 120%;
     letter-spacing: 28px;
     -webkit-text-stroke: 1px #293ECD;
@@ -10,18 +28,36 @@
 
 .index-en-title-blue-2 {
     font-family: 'Noto Sans CJK TC', sans-serif;
-    font-weight: 900;
-    font-size: 140px;
+    font-weight: var(--font-weight, 900);
+    font-size: var(--font-size);
     line-height: 120%;
     letter-spacing: 28px;
     -webkit-text-stroke: 1px #5AC9FB;
     color: transparent;
 }
 
+.index-ch-title-blue-1 {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', sans-serif;
+    font-weight: var(--font-weight, 500);
+    font-size: var(--font-size);
+    line-height: 140%;
+    letter-spacing: 20%;
+    color: #293ECD;
+}
+
+.index-ch-title-blue-2 {
+    font-family: 'Noto Serif TC', 'Source Han Serif TC', sans-serif;
+    font-weight: var(--font-weight, 500);
+    font-size: var(--font-size);
+    line-height: 140%;
+    letter-spacing: 20%;
+    color: #5AC9FB;
+}
+
 .index-ch-title-black {
     font-family: 'Noto Serif TC', 'Source Han Serif TC', sans-serif;
-    font-weight: 500;
-    font-size: 80px;
+    font-weight: var(--font-weight, 500);
+    font-size: var(--font-size);
     line-height: 140%;
     letter-spacing: 20%;
     color: #222222;
@@ -29,8 +65,8 @@
 
 .index-ch-title-white {
     font-family: 'Noto Serif TC', 'Source Han Serif TC', sans-serif;
-    font-weight: 500;
-    font-size: 80px;
+    font-weight: var(--font-weight, 500);
+    font-size: var(--font-size);
     line-height: 140%;
     letter-spacing: 20%;
     color: white;
